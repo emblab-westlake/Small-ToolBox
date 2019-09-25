@@ -1,4 +1,6 @@
 #!/bin/bash
+# Usage：bash MD5check.sh SAMPLElist.file
+
 echo "MD5 check" > MD5-check.log
 for i in `cat $1`;do
 cd ${i}
